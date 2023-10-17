@@ -108,4 +108,13 @@ public class Picture
             sun.changeColor("yellow");
         }
     }
+    
+    /**
+     * Make the sun come out
+     */
+    public void amanecer()
+    {
+        moon.makeInvisible();
+        sun.slowMoveVertical(-300);
+    }
 }
